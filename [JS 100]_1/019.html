@@ -1,0 +1,9 @@
+<script>
+  // 공백으로 구분하여 두 숫자 a와 b가 주어지면, a의 b승을 구하는 프로그램을 작성하세요.
+
+  const num = prompt('a와 b를 입력해주세요.').split(' ');
+
+  console.log(Math.pow(parseInt(num[0], 10), parseInt(num[1], 10)));
+  // Math.pow(a, b) : a의 b 제곱을 반환한다.
+  // 문자열 배열로 받아져 왔기 때문에 parseInt를 이용해 숫자로 바꾼뒤 Math.pow를 적용해준다.
+</script>
