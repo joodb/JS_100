@@ -1,1 +1,1 @@
-# algorithmJava
+# JS 100제
